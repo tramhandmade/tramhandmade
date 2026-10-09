@@ -1,0 +1,6 @@
+{
+  "name": "TRẠM HANDMADE - Nến Thơm Thủ Công & Nghệ Thuật",
+  "description": "Thương hiệu nến thơm thủ công & quà tặng nghệ thuật. Chạm một cảm xúc – Chữa lành tâm hồn.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
