@@ -1,6 +1,8 @@
+
 import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { useShop } from '../../context/ShopContext';
+import heroImage from '../../assets/images/hero_candle_artisan_1791132458744.jpg';
 
 export const HeroSection: React.FC = () => {
   const { setCurrentView, setSelectedCategory } = useShop();
@@ -20,8 +22,6 @@ export const HeroSection: React.FC = () => {
     <section className="relative bg-[#F7F0E8] overflow-hidden border-b border-[#5A4038]/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
-          {/* Left Column: Editorial Headline & Copy */}
           <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 text-xs font-semibold text-[#8B4A4F] tracking-widest uppercase">
               <Sparkles size={14} />
@@ -54,7 +54,6 @@ export const HeroSection: React.FC = () => {
               </button>
             </div>
 
-            {/* Quick quiet trust labels */}
             <div className="pt-6 border-t border-[#5A4038]/10 flex flex-wrap items-center gap-y-2 gap-x-6 text-xs text-[#5A4038]/75">
               <span>100% sáp đậu nành thiên nhiên</span>
               <span aria-hidden="true">·</span>
@@ -64,19 +63,16 @@ export const HeroSection: React.FC = () => {
             </div>
           </div>
 
-          {/* Right Column: Hero Showcase Image */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl border border-[#5A4038]/10 bg-[#FFFDF9]">
                 <img
-                  src="/src/assets/images/hero_candle_artisan_1791132458744.jpg"
+                  src={heroImage}
                   alt="Nến thơm thủ công Trạm Handmade"
-                  className="w-full h-full object-cover transform hover:scale-102 transition-transform duration-700"
-                  referrerPolicy="no-referrer"
+                  className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                 />
               </div>
 
-              {/* Editorial Caption Tag */}
               <div className="absolute -bottom-4 -left-4 sm:bottom-4 sm:-left-6 bg-[#FFFDF9]/95 backdrop-blur-xs p-4 rounded-xl shadow-lg border border-[#5A4038]/10 max-w-xs">
                 <p className="text-[11px] font-semibold text-[#8B4A4F] uppercase tracking-wider">
                   Bộ sưu tập mới nhất
@@ -90,7 +86,6 @@ export const HeroSection: React.FC = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
