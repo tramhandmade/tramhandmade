@@ -20,10 +20,11 @@
     categoryName: 'Nến hoa',
     rating: 5.0,
     reviewCount: 48,
-    image: '/src/assets/images/floating_wax_flowers_1791214174633.jpg',
-    gallery: [
-      '/src/assets/images/floating_wax_flowers_1791214174633.jpg',
-    ],
+    image: fixImagePath('/src/assets/images/floating_wax_flowers_1791214174633.jpg'),
+gallery: [
+  fixImagePath('/src/assets/images/floating_wax_flowers_1791214174633.jpg'),
+],
+   
     badge: 'Yêu thích',
     shortDescription: 'Cốc thủy tinh trong suốt với tầng hoa mẫu đơn và hoa hồng sáp nổi bồng bềnh trên mặt nước nến, hương thơm đài các.',
     description: 'Tuyệt tác nghệ thuật cắm hoa sáp trên nền nến thơm. Các đóa hoa mẫu đơn và nụ hồng hé nở mềm mại nổi trên bề mặt sáp, khi thắp lên tỏa hương thơm sang trọng của một khu vườn hoa nước Pháp.',
