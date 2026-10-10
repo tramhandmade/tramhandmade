@@ -52,7 +52,7 @@ export const AboutPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 items-center">
           <div className="md:col-span-6 aspect-[4/3] rounded-2xl overflow-hidden shadow-md border border-[#5A4038]/10 bg-[#F7F0E8]">
             <img
-              src="/src/assets/images/hero_candle_artisan_1791132458744.jpg"
+              src={`${import.meta.env.BASE_URL}images/hero_candle_artisan_1791132458744.jpg`}
               alt="Xưởng đúc nến Trạm Handmade"
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
