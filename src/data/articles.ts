@@ -14,7 +14,7 @@ export const ARTICLES: Article[] = [
       'Nguyên nhân cốt lõi là lần thắp nến đầu tiên bị tắt quá sớm. Sáp nến có "trí nhớ", nếu bề mặt sáp chưa tan chảy đều đến tận viền mà đã bị dập tắt, các lần đốt sau sáp sẽ chỉ tan chảy theo đúng đường kính cũ.',
       'Bí quyết từ Trạm Handmade: Lần đầu tiên thắp nến, hãy để nến cháy liên tục từ 1.5 đến 2 giờ cho đến khi lớp sáp trên cùng tan chảy hoàn toàn thành một mặt phẳng lỏng. Luôn cắt bấc nến còn khoảng 0.5cm trước khi đốt để ngọn lửa cháy êm, không tạo khói đen.'
     ],
-    image: '/src/assets/images/hero_candle_artisan_1791132458744.jpg'
+    image: '/src/tramhandmade/images/hero_candle_artisan_1791132458744.jpg'
   },
   {
     id: 'art-02',
@@ -29,7 +29,7 @@ export const ARTICLES: Article[] = [
       'Bạn nên đặt nến ở nơi khô ráo, thoáng mát, tránh ánh nắng mặt trời chiếu trực tiếp vì tia UV có thể làm phai màu sáp tự nhiên và bay hơi tinh dầu thơm.',
       'Khi không sử dụng, hãy đậy nắp nến hoặc đặt trong hộp giấy kín để tránh bụi bẩn bám vào bề mặt sáp. Lớp bụi mịn nếu bám vào bấc sẽ làm bấc khó bắt lửa và có mùi khét.'
     ],
-    image: '/src/assets/images/product_seashell_ocean_1791132471945.jpg'
+    image: '/src/tramhandmade/images/product_seashell_ocean_1791132471945.jpg'
   },
   {
     id: 'art-03',
@@ -44,7 +44,7 @@ export const ARTICLES: Article[] = [
       'Buổi chiều làm việc tập trung: Hương gỗ Tuyết tùng, Hương thảo và Trà trắng giúp thanh lọc tâm trí, tăng cường sự tỉnh táo và tập trung cao độ.',
       'Buổi tối trước khi đi ngủ: Không gì tuyệt vời hơn hoa Oải hương (Lavender), Gỗ đàn hương ấm và Vani ngọt dịu. Mùi hương êm đềm như một cái ôm dịu dàng, đưa bạn vào giấc ngủ sâu sau ngày dài bộn bề.'
     ],
-    image: '/src/assets/images/product_floral_lotus_1791132519065.jpg'
+    image: '/src/tramhandmade/images/product_floral_lotus_1791132519065.jpg'
   },
   {
     id: 'art-04',
@@ -59,7 +59,7 @@ export const ARTICLES: Article[] = [
       'Đặc biệt với nến thủ công của Trạm Handmade, từng chiếc nến mang hình vỏ sò, sao biển hay cánh hoa đều là độc bản, đúc kết từ đôi bàn tay khéo léo và tình yêu thiên nhiên.',
       'Chiếc nến được cá nhân hóa kèm theo lời chúc riêng sẽ là món quà lưu giữ kỷ niệm sâu sắc mà người nhận luôn trân quý.'
     ],
-    image: '/src/assets/images/product_bear_gift_1791132506453.jpg'
+    image: '/src/tramhandmade/images/product_bear_gift_1791132506453.jpg'
   },
   {
     id: 'art-05',
