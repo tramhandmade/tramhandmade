@@ -76,6 +76,6 @@ export const ARTICLES: Article[] = [
       '4. Đốt nến gần rèm cửa và vật bắt lửa: Luôn đặt nến trên đế phẳng chịu nhiệt và cách xa vật liệu dễ cháy ít nhất 50cm.',
       '5. Quên tắt nến khi đi ngủ: Tuyệt đối không để nến cháy qua đêm mà không có người trông coi.'
     ],
-    image: '/src/assets/images/product_starfish_candle_1791132484151.jpg'
+    image: '/tramhandmade/images/hero_candle_artisan_1791132458744.jpg',
   }
 ];
