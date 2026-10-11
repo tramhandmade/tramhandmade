@@ -11,7 +11,7 @@ export const CollectionsSection: React.FC = () => {
       title: 'THE OCEAN',
       subtitle: 'Hơi Thở Đại Dương',
       description: 'Nến lấy cảm hứng từ biển khơi, vỏ sò tự nhiên, sao biển và lớp sáp xanh dịu êm.',
-      image: '/src/assets/images/scallop_sand_ocean_1791133416209.jpg',
+      image: import.meta.env.BASE_URL + 'images/scallop_sand_ocean_1791133416209.jpg',
       categoryTarget: 'seashell',
     },
     {
@@ -19,7 +19,7 @@ export const CollectionsSection: React.FC = () => {
       title: 'DREAMY',
       subtitle: 'Giấc Mơ Êm Đềm',
       description: 'Các mẫu nến hoa mềm mại, sắc màu pastel dịu mắt, hòa quyện hương hoa sen và sen đá thanh tịnh.',
-      image: '/src/assets/images/product_floral_lotus_1791132519065.jpg',
+      image: import.meta.env.BASE_URL + 'images/product_floral_lotus_1791132519065.jpg',
       categoryTarget: 'sculpture',
     },
     {
@@ -27,7 +27,7 @@ export const CollectionsSection: React.FC = () => {
       title: 'SWEET GIFT',
       subtitle: 'Món Quà Ngọt Ngào',
       description: 'Nến gấu teddy nhỏ xinh, set nến mini vỏ sò 4 màu và thiệp tay ý nghĩa.',
-      image: '/src/assets/images/teddy_pink_pot_1791133518314.jpg',
+      image: import.meta.env.BASE_URL + 'images/teddy_pink_pot_1791133518314.jpg',
       categoryTarget: 'gift',
     },
     {
@@ -35,7 +35,7 @@ export const CollectionsSection: React.FC = () => {
       title: 'CUSTOM',
       subtitle: 'Dấu Ấn Riêng Bản',
       description: 'Nến thiết kế theo yêu cầu: tự chọn khuôn, pha sắc màu, chọn mùi hương và khắc tên người thương.',
-      image: '/src/assets/images/custom_workshop_candle_1791133786046.jpg',
+      image: import.meta.env.BASE_URL + 'images/custom_workshop_candle_1791133786046.jpg',
       isCustomBuilder: true,
     },
   ];
